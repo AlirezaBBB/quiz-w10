@@ -13,6 +13,12 @@ namespace quiz_w10.Pages
             _user = user;
         }
 
+        public IEnumerable<User> getUser()
+        {
+            return _user.getUsers();
+        }
+
+
         public void OnGet()
         {
 

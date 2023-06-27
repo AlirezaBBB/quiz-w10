@@ -1,3 +1,4 @@
+using quiz_w10.Pages;
 using quiz_w10.Repository;
 
 namespace quiz_w10
