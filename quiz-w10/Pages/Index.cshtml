@@ -1,0 +1,16 @@
+﻿@page
+@using quiz_w10.Repository;
+@model IUserRepository
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    @foreach (var item in Model.getUsers())
+    {
+        <p>@item</p>
+        <br/>
+    }
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
